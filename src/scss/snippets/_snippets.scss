@@ -5,8 +5,10 @@
 
     .snippets-content {
         padding: 3rem 1.5rem;
-        .imagen {
-            margin-bottom: v.$separacion;
+        .snippets-grid {
+            .imagen {
+                margin-bottom: v.$separacion;
+            }
         }
     }
 }
