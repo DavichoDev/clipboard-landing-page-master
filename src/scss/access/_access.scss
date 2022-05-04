@@ -1,0 +1,12 @@
+@use 'base/variables'as v;
+@use 'base/mixins'as m;
+
+.access {
+    .access-content {
+        padding: 3rem 1.5rem;
+
+        .imagen {
+            margin-bottom: 3rem;
+        }
+    }
+}

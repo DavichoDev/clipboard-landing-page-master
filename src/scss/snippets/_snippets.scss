@@ -1,0 +1,12 @@
+@use 'base/variables'as v;
+@use 'base/mixins'as m;
+
+.snippets {
+
+    .snippets-content {
+        padding: 3rem 1.5rem;
+        .imagen {
+            margin-bottom: v.$separacion;
+        }
+    }
+}

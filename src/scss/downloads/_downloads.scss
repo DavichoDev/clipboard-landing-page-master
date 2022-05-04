@@ -1,0 +1,9 @@
+@use 'base/variables'as v;
+@use 'base/mixins'as m;
+
+.downloads {
+    .downloads-content {
+        padding: 3rem 1.5rem;
+        .buttons {}
+    }
+}

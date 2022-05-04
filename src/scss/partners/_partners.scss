@@ -1,0 +1,14 @@
+@use 'base/variables'as v;
+@use 'base/mixins'as m;
+
+.partners {
+    .partners-grid {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 3rem 1.5rem;
+        .partner {
+            margin: 4rem 0;
+        }
+    }
+}

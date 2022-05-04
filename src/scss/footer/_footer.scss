@@ -1,0 +1,53 @@
+@use 'base/variables'as v;
+@use 'base/mixins'as m;
+
+.footer {
+    background-color: v.$lightGray;
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5rem 1.5rem;
+
+        .logo {
+            width: 5rem;
+        }
+
+        .links {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            li {
+                color: v.$darkGrayishBlue;
+                font-size: 1.8rem;
+                margin: 3rem 0;
+            }
+        }
+
+        .socials {
+            display: flex;
+            width: 50%;
+            justify-content: space-around;
+
+            .social {
+                i {
+                    font-size: 2.5rem;
+                    color: v.$darkGrayishBlue;
+                }
+            }
+        }
+    }
+
+    .attribution {
+        font-size: 1rem;
+        text-align: center;
+        margin: 0;
+
+        a {
+            color: hsl(228, 45%, 44%);
+        }
+    }
+}
