@@ -2,6 +2,8 @@
 
 ![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)
 
+Final result: https://profound-kringle-8e3167.netlify.app/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
