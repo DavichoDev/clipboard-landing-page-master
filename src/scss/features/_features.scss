@@ -2,9 +2,13 @@
 @use 'base/mixins'as m;
 
 .features {
-
+    padding: 3rem 1.5rem;
     .features-grid {
-        padding: 3rem 1.5rem;
+        @include m.desktop {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
         .feature {
             display: flex;
             flex-direction: column;

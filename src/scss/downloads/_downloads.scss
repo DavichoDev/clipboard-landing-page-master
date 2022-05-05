@@ -4,6 +4,21 @@
 .downloads {
     .downloads-content {
         padding: 3rem 1.5rem;
-        .buttons {}
+
+        @include m.tablet {
+            max-width: 65rem;
+
+            .buttons {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 2rem;
+
+                .button {
+                    display: inline;
+                    width: 30%;
+                }
+            }
+        }
     }
 }

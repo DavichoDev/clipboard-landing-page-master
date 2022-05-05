@@ -7,6 +7,10 @@
         align-items: center;
         flex-direction: column;
         padding: 3rem 1.5rem;
+        @include m.desktop {
+            flex-direction: row;
+            justify-content: space-around;
+        }
         .partner {
             margin: 4rem 0;
         }

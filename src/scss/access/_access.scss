@@ -2,11 +2,18 @@
 @use 'base/mixins'as m;
 
 .access {
+    @include m.tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .access-content {
         padding: 3rem 1.5rem;
-
-        .imagen {
-            margin-bottom: 3rem;
+        @include m.tablet {
+            max-width: 65rem;
         }
+    }
+    .imagen {
+        margin-bottom: 3rem;
     }
 }

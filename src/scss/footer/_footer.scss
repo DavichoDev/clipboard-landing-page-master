@@ -9,29 +9,41 @@
         flex-direction: column;
         align-items: center;
         padding: 5rem 1.5rem;
-
+        @include m.desktop {
+            flex-direction: row;
+            justify-content: space-around;
+        }
         .logo {
             width: 5rem;
         }
-
         .links {
             text-align: center;
             margin: 0;
             padding: 0;
             list-style: none;
+            @include m.desktop {
+                @include m.grid(3, 0);
+                text-align: left;
+                width: 40%;
+            }
 
             li {
                 color: v.$darkGrayishBlue;
                 font-size: 1.8rem;
                 margin: 3rem 0;
+                @include m.desktop {
+                    margin: 1rem 0;
+                }
             }
         }
-
         .socials {
             display: flex;
             width: 50%;
             justify-content: space-around;
-
+            @include m.desktop {
+                width: 20%;
+                justify-content: space-evenly;
+            }
             .social {
                 i {
                     font-size: 2.5rem;
